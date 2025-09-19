@@ -24,12 +24,6 @@ FILES:${PN}-nxp9098-common = " \
     ${nonarch_base_libdir}/firmware/nxp/uart9098_bt_v1.bin \
 "
 
-FILES:${PN}-nxpiw610-sdio += " \
-    ${nonarch_base_libdir}/firmware/nxp/sd_iw610.bin.se \
-    ${nonarch_base_libdir}/firmware/nxp/sduart_iw610.bin.se \
-    ${nonarch_base_libdir}/firmware/nxp/uart_iw610_bt.bin.se \
-    ${nonarch_base_libdir}/firmware/nxp/uartspi_iw610.bin.se \
-"
 
 FILES:${PN}-nxpiw612-sdio += " \
     ${nonarch_base_libdir}/firmware/nxp/uartuart_n61x_v1.bin.se \
@@ -43,7 +37,6 @@ RDEPENDS:${PN}-all-sdio = " \
     ${PN}-nxp8997-sdio \
     ${PN}-nxp9098-sdio \
     ${PN}-nxpiw416-sdio \
-    ${PN}-nxpiw610-sdio \
     ${PN}-nxpiw612-sdio \
 "
 
